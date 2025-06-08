@@ -2,13 +2,14 @@ package _01_Open_Browser;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 public class EDGE {
-
-	public static void main(String[] args) {
+@Test
+	public void Edge_Maven() {
 		WebDriver driver = new EdgeDriver();
 		driver.navigate().to("https://www.google.com/");
+		driver.quit();
 	}
 
 }

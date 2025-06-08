@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-08T16:00:11 IST" name="Suite" finished-at="2025-06-08T16:00:58 IST" duration-ms="47056">
+    <groups>
+    </groups>
+    <test started-at="2025-06-08T16:00:11 IST" name="Sasi" finished-at="2025-06-08T16:00:58 IST" duration-ms="47056">
+      <class name="_01_Open_Browser.CHROME">
+        <test-method signature="Chrome_Maven()[pri:0, instance:_01_Open_Browser.CHROME@1ab3a8c8]" started-at="2025-06-08T16:00:11 IST" name="Chrome_Maven" finished-at="2025-06-08T16:00:53 IST" duration-ms="41982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chrome_Maven -->
+      </class> <!-- _01_Open_Browser.CHROME -->
+      <class name="_01_Open_Browser.FIREFOX">
+        <test-method signature="Firefox_Maven()[pri:0, instance:_01_Open_Browser.FIREFOX@6eda5c9]" started-at="2025-06-08T16:00:11 IST" name="Firefox_Maven" finished-at="2025-06-08T16:00:58 IST" duration-ms="46904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firefox_Maven -->
+      </class> <!-- _01_Open_Browser.FIREFOX -->
+      <class name="_01_Open_Browser.EDGE">
+        <test-method signature="Edge_Maven()[pri:0, instance:_01_Open_Browser.EDGE@6973b51b]" started-at="2025-06-08T16:00:11 IST" name="Edge_Maven" finished-at="2025-06-08T16:00:33 IST" duration-ms="21892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edge_Maven -->
+      </class> <!-- _01_Open_Browser.EDGE -->
+    </test> <!-- Sasi -->
+  </suite> <!-- Suite -->
+</testng-results>
