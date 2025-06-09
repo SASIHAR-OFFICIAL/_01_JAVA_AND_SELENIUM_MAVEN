@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="parameter Username" value="sylix"></parameter>
+<parameter name="parameter Password" value="admin"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNGbySasi.LoginBrm"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

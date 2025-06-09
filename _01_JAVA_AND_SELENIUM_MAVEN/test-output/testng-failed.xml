@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="Pass123$"/>
+  <parameter name="emailId" value="koushik350@gmail.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testNgBasic.LearnParamters">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testNgBasic.LearnParamters -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

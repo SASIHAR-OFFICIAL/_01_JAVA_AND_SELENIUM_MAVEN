@@ -12,8 +12,9 @@ import utils.DataUtils;
 public class LearnDataProvider {
 
 	//	@Parameters({"emailId"})
-	@Test(dataProvider = "getData", 
-			dataProviderClass = DataUtils.class)
+
+	//@Test(enabled = false, alwaysRun = true)
+	@Test(dataProvider = "getData", dataProviderClass = DataUtils.class)
 	public void login(String data[]) throws InterruptedException {
 		//		System.err.println("from parameters: "+id);
 		System.err.println("Email: "+data[0]);

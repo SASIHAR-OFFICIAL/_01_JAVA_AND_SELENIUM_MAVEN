@@ -8,6 +8,11 @@ public class LearnAttributes2 {
 	public void signUp() {
 		System.out.println("signUp");
 	}
+	@Test(dependsOnMethods = "signUp")
+	public void login() {
+		System.out.println("login");
+		throw new NoSuchElementException("element not there");
+	
 //	@Test()
 //	public void login() {
 //		System.out.println("login");
@@ -19,4 +24,4 @@ public class LearnAttributes2 {
 	 */
 	
 
-}
+}} 

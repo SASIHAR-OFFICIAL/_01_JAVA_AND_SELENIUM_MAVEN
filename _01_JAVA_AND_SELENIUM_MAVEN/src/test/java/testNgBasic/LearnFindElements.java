@@ -1,5 +1,6 @@
 package testNgBasic;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -11,16 +12,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class LearnFindElements {
-	
+	//@Test(invocationCount = 3,threadPoolSize = 3)
 	@Test(expectedExceptions = {NoSuchElementException.class})
+	//@Test(expectedExceptions = {NoSuchElementException.class})
 	public void findElements() {
 		ChromeDriver driver =  new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.google.com/");
-		driver.findElement(By.name("q1")).sendKeys("cricket", Keys.ENTER);
+		driver.findElement(By.name("q")).sendKeys("cricket", Keys.ENTER);
 		List<WebElement> crickets = 
-				driver.findElementsByXPath
-				("//*[contains(text(),'cricket') or contains(text(),'Cricket')]");
+				driver.findElements(By.xpath("//*[contains(text(),'cricket') or contains(text(),'Cricket')]"));
 		System.out.println(crickets.size());
 		driver.quit();		
 	}

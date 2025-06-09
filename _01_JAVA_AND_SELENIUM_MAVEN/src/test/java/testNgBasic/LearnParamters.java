@@ -1,5 +1,6 @@
 package testNgBasic;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -25,11 +26,10 @@ public class LearnParamters {
 		}
 		System.out.println(email + " "+ pass);
 		driver.get("https://letcode.in/");
-		driver.findElementByLinkText("Log in").click();
-		driver.findElementByName("email")
-		.sendKeys(email);
-		driver.findElementByName("password").sendKeys(pass);
-		driver.findElementByXPath("//button[.='LOGIN']").click();
+		driver.findElement(By.linkText("Log in")).click();
+		driver.findElement(By.name("email")).sendKeys(email);
+		driver.findElement(By.name("password")).sendKeys(pass);
+		driver.findElement(By.xpath("//button[.='LOGIN']")).click();
 		String title = driver.getTitle();
 		System.out.println("Title is "+title);
 	}
