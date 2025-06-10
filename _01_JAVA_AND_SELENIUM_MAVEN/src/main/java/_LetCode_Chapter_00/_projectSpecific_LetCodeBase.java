@@ -1,5 +1,6 @@
 package _LetCode_Chapter_00;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +13,7 @@ public class _projectSpecific_LetCodeBase extends _00_SeleniumBase{
 	public void launchBrowser() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://letcode.in/");
 	}
 	@AfterMethod
