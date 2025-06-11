@@ -1,4 +1,4 @@
-package _01_Open_Browser;
+package CrossBowserTest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
-public class _04_CrossBrowserTest {
+public class _02_CrossBrowserTest_LetCode {
 	RemoteWebDriver driver;
 	@Test
 	public void login(String email, String pass, String browser) {

@@ -32,6 +32,7 @@ public class LearnParamters {
 		driver.findElement(By.xpath("//button[.='LOGIN']")).click();
 		String title = driver.getTitle();
 		System.out.println("Title is "+title);
+		driver.quit();
 	}
-
+	
 }
