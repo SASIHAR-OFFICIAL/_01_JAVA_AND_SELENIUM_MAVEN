@@ -1,4 +1,4 @@
-package TestNGbySasi;
+package CrossBowserTest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class BrmtremplintechLogin {
+public class _03_BrmtremplintechLogin {
 
 	@Parameters({"parameter Username","parameter Password"})
 	@Test

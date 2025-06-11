@@ -1,4 +1,4 @@
-package _01_Open_Browser;
+package CrossBowserTest;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class _05_CrossBrowserTest {
+public class _01_CrossBrowserTest_ChatGPT {
 
     WebDriver driver;
 

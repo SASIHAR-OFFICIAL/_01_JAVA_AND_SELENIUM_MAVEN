@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="password" value="Pass123$"/>
-  <parameter name="emailId" value="koushik350@gmail.com"/>
-  <test thread-count="5" name="Test(failed)">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Username" value="sylix"/>
+  <parameter name="Password" value="admin"/>
+  <test thread-count="5" parallel="tests" name="Edge(failed)">
     <classes>
-      <class name="testNgBasic.LearnParamters">
+      <class name="CrossBowserTest._04_CrossBroswer_BrmtremplintechLogin">
         <methods>
-          <include name="login"/>
+          <include name="BRM_Login"/>
         </methods>
-      </class> <!-- testNgBasic.LearnParamters -->
+      </class> <!-- CrossBowserTest._04_CrossBroswer_BrmtremplintechLogin -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Edge(failed) -->
 </suite> <!-- Failed suite [Suite] -->
