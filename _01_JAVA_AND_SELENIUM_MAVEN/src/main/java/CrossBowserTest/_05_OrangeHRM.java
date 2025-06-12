@@ -18,7 +18,7 @@ public class _05_OrangeHRM {
 	void LoginData(String UName,String PWord, String Browsers) throws InterruptedException  {
 
 		switch (Browsers) {
-		case "FireFox":
+		case "Firefox":
 			driver =new FirefoxDriver();
 			break;
 		case "Chrome":

@@ -13,14 +13,4 @@
       </class> <!-- CrossBowserTest._05_OrangeHRM -->
     </classes>
   </test> <!-- Fireox(failed) -->
-  <test thread-count="5" name="Edge(failed)">
-    <parameter name="Browsers" value="Edge"/>
-    <classes>
-      <class name="CrossBowserTest._05_OrangeHRM">
-        <methods>
-          <include name="LoginData" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- CrossBowserTest._05_OrangeHRM -->
-    </classes>
-  </test> <!-- Edge(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-11T23:27:59 IST" name="Suite" finished-at="2025-06-11T23:29:23 IST" duration-ms="83875">
+  <suite started-at="2025-06-12T11:26:02 IST" name="Default suite" finished-at="2025-06-12T11:26:10 IST" duration-ms="8235">
     <groups>
     </groups>
-    <test started-at="2025-06-11T23:27:59 IST" name="Fireox" finished-at="2025-06-11T23:28:00 IST" duration-ms="170">
-      <class name="CrossBowserTest._05_OrangeHRM">
-        <test-method signature="LoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:CrossBowserTest._05_OrangeHRM@a514af7]" started-at="2025-06-11T23:27:59 IST" name="LoginData" finished-at="2025-06-11T23:28:00 IST" duration-ms="42" status="FAIL">
+    <test started-at="2025-06-12T11:26:02 IST" name="Default test" finished-at="2025-06-12T11:26:10 IST" duration-ms="8235">
+      <class name="_DataProvider._06_DataProvider_Sub_Class_Indices">
+        <test-method signature="HRM_Login(java.lang.String,java.lang.String)[pri:0, instance:_DataProvider._06_DataProvider_Sub_Class_Indices@6d763516]" started-at="2025-06-12T11:26:02 IST" name="HRM_Login" data-provider="input" finished-at="2025-06-12T11:26:10 IST" duration-ms="8201" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Admin]]>
+                <![CDATA[Admin1]]>
               </value>
             </param>
             <param index="1">
@@ -19,166 +19,11 @@
                 <![CDATA[admin123]]>
               </value>
             </param>
-            <param index="2">
-              <value>
-                <![CDATA[Fireox]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
-at CrossBowserTest._05_OrangeHRM.LoginData(_05_OrangeHRM.java:33)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginData -->
-      </class> <!-- CrossBowserTest._05_OrangeHRM -->
-    </test> <!-- Fireox -->
-    <test started-at="2025-06-11T23:28:00 IST" name="Chrome" finished-at="2025-06-11T23:28:11 IST" duration-ms="11786">
-      <class name="CrossBowserTest._05_OrangeHRM">
-        <test-method signature="LoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:CrossBowserTest._05_OrangeHRM@3023df74]" started-at="2025-06-11T23:28:00 IST" name="LoginData" finished-at="2025-06-11T23:28:11 IST" duration-ms="11780" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginData -->
-      </class> <!-- CrossBowserTest._05_OrangeHRM -->
-    </test> <!-- Chrome -->
-    <test started-at="2025-06-11T23:28:11 IST" name="Edge" finished-at="2025-06-11T23:29:23 IST" duration-ms="71744">
-      <class name="CrossBowserTest._05_OrangeHRM">
-        <test-method signature="LoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:CrossBowserTest._05_OrangeHRM@4562e04d]" started-at="2025-06-11T23:28:11 IST" name="LoginData" finished-at="2025-06-11T23:29:23 IST" duration-ms="71731" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[target frame detached
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: MicrosoftEdge=137.0.3296.68)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [29939622834301e6cb9cfc0522f21b08, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55252}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\SASIHAR\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55252/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 29939622834301e6cb9cfc0522f21b08]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: MicrosoftEdge=137.0.3296.68)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [29939622834301e6cb9cfc0522f21b08, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55252}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\SASIHAR\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55252/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 29939622834301e6cb9cfc0522f21b08
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1071)
-at CrossBowserTest._05_OrangeHRM.LoginData(_05_OrangeHRM.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginData -->
-      </class> <!-- CrossBowserTest._05_OrangeHRM -->
-    </test> <!-- Edge -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- HRM_Login -->
+      </class> <!-- _DataProvider._06_DataProvider_Sub_Class_Indices -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
