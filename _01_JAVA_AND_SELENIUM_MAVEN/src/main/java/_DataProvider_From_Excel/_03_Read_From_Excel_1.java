@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class _03_Read_From_Excel {
+public class _03_Read_From_Excel_1 {
 
 	public static void main(String[] args) throws IOException {
 		//FileInputStream FIS_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login - Copy.xlsx");
