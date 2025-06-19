@@ -20,6 +20,7 @@ public class _03_Read_From_Excel_1 {
 		XSSFSheet xSheet_Obj = XW_Obj.getSheetAt(0);
 		int lastRowNum = xSheet_Obj.getLastRowNum();
 		short lastCellNum = xSheet_Obj.getRow(0).getLastCellNum();
+		
 		for (int i = 0; i <=lastRowNum; i++) {
 			XSSFRow row = xSheet_Obj.getRow(i);
 			
