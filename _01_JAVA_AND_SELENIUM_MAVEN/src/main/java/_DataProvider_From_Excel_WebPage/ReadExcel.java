@@ -12,6 +12,7 @@ public class ReadExcel {
 	public static String[][] getExcelData() {
 		
 		String fileLocation = "C:\\WebDriver\\TESTING FILES\\HRM Login - Copy.xlsx";
+		
 		XSSFWorkbook wbook = null;
 		try {
 			wbook = new XSSFWorkbook(fileLocation);
@@ -32,9 +33,9 @@ public class ReadExcel {
 			for (int j = 0; j < lastCellNum; j++) {
 				XSSFCell cell = row.getCell(j);
 				DataFormatter dft = new DataFormatter();
-				String value = dft.formatCellValue(cell);
-//				String value = cell.getStringCellValue();
-//				System.out.println(value);
+				//String value = dft.formatCellValue(cell);
+				String value = cell.getStringCellValue();
+				System.out.println(value);
 				data[i-1][j] = value;
 			} 
 		}

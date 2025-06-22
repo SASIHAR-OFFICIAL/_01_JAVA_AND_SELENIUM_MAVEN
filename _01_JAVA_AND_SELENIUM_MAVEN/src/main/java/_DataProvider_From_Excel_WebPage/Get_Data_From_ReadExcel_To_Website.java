@@ -6,12 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class LearnDataProvider {
+public class Get_Data_From_ReadExcel_To_Website {
 
-	//	@Parameters({"emailId"})
-	@Test(dataProvider = "getData", dataProviderClass = DataUtils.class)
+	
+	@Test(dataProvider = "getData", dataProviderClass = _DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel.class)
 	public void login(String data[]) throws InterruptedException {
-		//		System.err.println("from parameters: "+id);
+			//	System.err.println("from parameters: "+id);
 		System.err.println("Email: "+data[0]);
 		System.err.println("Pass: "+data[1]);
 
@@ -22,8 +22,8 @@ public class LearnDataProvider {
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input")).sendKeys(data[0]);
 		driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[2]/div/div[2]/input")).sendKeys(data[1]);
-		driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")).click();
-		driver.quit();
+//		driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")).click();
+//		driver.quit();
 
 	}
 

@@ -21,9 +21,6 @@ public class _03_Read_From_Excel_0 {
 //			int lastRowNum = xs_objSheet.getLastRowNum();
 //			short lastCellNum = xs_objSheet.getRow(1).getLastCellNum();
 
-
-		
-			
 				XSSFRow row = xs_objSheet.getRow(3);
 				
 					XSSFCell cell = row.getCell(3);

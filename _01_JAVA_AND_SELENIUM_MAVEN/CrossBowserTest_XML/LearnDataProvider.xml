@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="_DataProvider_From_Excel_WebPage.LearnDataProvider"/>
+      <class name="_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,11 +3,10 @@ package _DataProvider_From_Excel_WebPage;
 
 import org.testng.annotations.DataProvider;
 
-import utils.ReadExcel;
-
-public class DataUtils {
+public class Get_Data_From_ReadExcel {
 	
 	@DataProvider(/* indices = {1, 2}, */ parallel = !true)
+	
 	public String[][] getData() {
 		String[][] excelData = ReadExcel.getExcelData();
 //		String[][] data = new String[3][2];
