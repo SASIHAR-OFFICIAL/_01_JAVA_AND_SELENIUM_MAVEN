@@ -2,49 +2,49 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-21T20:20:40 IST" name="Default suite" finished-at="2025-06-21T20:22:39 IST" duration-ms="119555">
+  <suite started-at="2025-06-26T11:47:13 IST" name="Default suite" finished-at="2025-06-26T11:48:05 IST" duration-ms="52427">
     <groups>
     </groups>
-    <test started-at="2025-06-21T20:20:40 IST" name="Default test" finished-at="2025-06-21T20:22:39 IST" duration-ms="119555">
+    <test started-at="2025-06-26T11:47:13 IST" name="Default test" finished-at="2025-06-26T11:48:05 IST" duration-ms="52427">
       <class name="_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website">
-        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-21T20:20:42 IST" name="login" data-provider="getData" finished-at="2025-06-21T20:21:34 IST" duration-ms="52186" status="PASS">
+        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-26T11:47:14 IST" name="login" data-provider="getData" finished-at="2025-06-26T11:47:28 IST" duration-ms="13961" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@1e86a5a7]]>
+                <![CDATA[[Ljava.lang.String;@fcc6023]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-21T20:21:34 IST" name="login" data-provider="getData" finished-at="2025-06-21T20:21:55 IST" duration-ms="20679" status="PASS">
+        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-26T11:47:28 IST" name="login" data-provider="getData" finished-at="2025-06-26T11:47:39 IST" duration-ms="11145" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@212dfd39]]>
+                <![CDATA[[Ljava.lang.String;@67c5ac52]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-21T20:21:55 IST" name="login" data-provider="getData" finished-at="2025-06-21T20:22:20 IST" duration-ms="24670" status="PASS">
+        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-26T11:47:39 IST" name="login" data-provider="getData" finished-at="2025-06-26T11:47:53 IST" duration-ms="14548" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@741f8dbe]]>
+                <![CDATA[[Ljava.lang.String;@2b8bb184]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-21T20:22:20 IST" name="login" data-provider="getData" finished-at="2025-06-21T20:22:39 IST" duration-ms="19868" status="PASS">
+        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-26T11:47:53 IST" name="login" data-provider="getData" finished-at="2025-06-26T11:48:05 IST" duration-ms="11762" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@10afe71a]]>
+                <![CDATA[[Ljava.lang.String;@36417a54]]>
               </value>
             </param>
           </params>

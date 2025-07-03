@@ -22,8 +22,8 @@ public class Get_Data_From_ReadExcel_To_Website {
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input")).sendKeys(data[0]);
 		driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[2]/div/div[2]/input")).sendKeys(data[1]);
-//		driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")).click();
-//		driver.quit();
+		driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")).click();
+		driver.quit();
 
 	}
 
