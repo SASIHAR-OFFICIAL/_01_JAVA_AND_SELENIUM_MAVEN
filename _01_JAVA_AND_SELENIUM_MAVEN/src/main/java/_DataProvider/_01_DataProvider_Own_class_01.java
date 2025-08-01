@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class _01_DataProvider_Own_class {
+public class _01_DataProvider_Own_class_01 {
 	WebDriver driver;
 	@DataProvider(name = "Details")
 

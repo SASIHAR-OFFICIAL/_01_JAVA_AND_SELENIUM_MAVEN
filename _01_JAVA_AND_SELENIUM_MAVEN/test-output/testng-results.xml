@@ -1,57 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-26T11:47:13 IST" name="Default suite" finished-at="2025-06-26T11:48:05 IST" duration-ms="52427">
+  <suite started-at="2025-07-29T10:21:10 IST" name="Default suite" finished-at="2025-07-29T10:21:21 IST" duration-ms="11733">
     <groups>
     </groups>
-    <test started-at="2025-06-26T11:47:13 IST" name="Default test" finished-at="2025-06-26T11:48:05 IST" duration-ms="52427">
-      <class name="_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website">
-        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-26T11:47:14 IST" name="login" data-provider="getData" finished-at="2025-06-26T11:47:28 IST" duration-ms="13961" status="PASS">
+    <test started-at="2025-07-29T10:21:10 IST" name="Default test" finished-at="2025-07-29T10:21:21 IST" duration-ms="11733">
+      <class name="_DataProvider._01_DataProvider_Own_class_03">
+        <test-method signature="Search_In_Google(java.lang.String)[pri:0, instance:_DataProvider._01_DataProvider_Own_class_03@245b4bdc]" started-at="2025-07-29T10:21:10 IST" name="Search_In_Google" data-provider="Search_Data" finished-at="2025-07-29T10:21:16 IST" duration-ms="5937" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@fcc6023]]>
+                <![CDATA[Coimbatore]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-26T11:47:28 IST" name="login" data-provider="getData" finished-at="2025-06-26T11:47:39 IST" duration-ms="11145" status="PASS">
+        </test-method> <!-- Search_In_Google -->
+        <test-method signature="Search_In_Google(java.lang.String)[pri:0, instance:_DataProvider._01_DataProvider_Own_class_03@245b4bdc]" started-at="2025-07-29T10:21:16 IST" name="Search_In_Google" data-provider="Search_Data" finished-at="2025-07-29T10:21:21 IST" duration-ms="5759" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@67c5ac52]]>
+                <![CDATA[Erode]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-26T11:47:39 IST" name="login" data-provider="getData" finished-at="2025-06-26T11:47:53 IST" duration-ms="14548" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@2b8bb184]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:_DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website@1fa268de]" started-at="2025-06-26T11:47:53 IST" name="login" data-provider="getData" finished-at="2025-06-26T11:48:05 IST" duration-ms="11762" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@36417a54]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- _DataProvider_From_Excel_WebPage.Get_Data_From_ReadExcel_To_Website -->
+        </test-method> <!-- Search_In_Google -->
+      </class> <!-- _DataProvider._01_DataProvider_Own_class_03 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
