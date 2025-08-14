@@ -1,4 +1,4 @@
-package _DataProvider_From_Excel;
+package _02_Read_From_Excel_LetCode;
 
 import java.io.FileInputStream;
 import java.io.IOException;

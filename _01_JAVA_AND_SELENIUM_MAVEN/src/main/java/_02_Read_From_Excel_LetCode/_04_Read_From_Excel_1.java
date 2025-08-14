@@ -1,4 +1,4 @@
-package _DataProvider_From_Excel;
+package _02_Read_From_Excel_LetCode;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class _03_Read_From_Excel_1 {
+public class _04_Read_From_Excel_1 {
 
 	public static void main(String[] args) throws IOException {
 		//FileInputStream FIS_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login - Copy.xlsx");

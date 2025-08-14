@@ -1,4 +1,4 @@
-package _DataProvider_From_Excel;
+package _02_Read_From_Excel_LetCode;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class _03_Read_From_Excel_3 {
+public class _06_Read_From_Excel_3 {
 
 	public static void main(String[] args) throws IOException {
 
@@ -25,8 +25,6 @@ public class _03_Read_From_Excel_3 {
 				XSSFCell cell = row.getCell(j);
 				DataFormatter DF = new DataFormatter();
 				String formatCellValue = DF.formatCellValue(cell);
-//				String stringCellValue = cell.getStringCellValue();
-				
 				System.out.println(formatCellValue);
 			} 
 		}

@@ -1,4 +1,4 @@
-package _DataProvider_From_Excel;
+package _02_Read_From_Excel_LetCode;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class _03_Read_From_Excel_2 {
+public class _05_Read_From_Excel_2 {
 
 	public static void main(String[] args) throws IOException  {
 		
