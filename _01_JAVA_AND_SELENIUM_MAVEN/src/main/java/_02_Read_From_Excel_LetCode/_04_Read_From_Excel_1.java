@@ -14,10 +14,10 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class _04_Read_From_Excel_1 {
 
 	public static void main(String[] args) throws IOException {
-		//FileInputStream FIS_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login - Copy.xlsx");
-		FileInputStream FIS_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\BATCH LIST PROJECT.xlsx");
+		//FileInputStream FIS_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx");
+		FileInputStream FIS_Obj = new FileInputStream ("C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx");
 		XSSFWorkbook XW_Obj = new XSSFWorkbook(FIS_Obj);
-		XSSFSheet xSheet_Obj = XW_Obj.getSheetAt(0);
+		XSSFSheet xSheet_Obj = XW_Obj.getSheet("IV-A SEC");
 		int lastRowNum = xSheet_Obj.getLastRowNum();
 		short lastCellNum = xSheet_Obj.getRow(0).getLastCellNum();
 		

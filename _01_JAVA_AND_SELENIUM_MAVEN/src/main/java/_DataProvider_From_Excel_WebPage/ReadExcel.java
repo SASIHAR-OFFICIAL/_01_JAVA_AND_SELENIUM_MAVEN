@@ -11,7 +11,7 @@ public class ReadExcel {
 	
 	public static String[][] getExcelData() {
 		
-		String fileLocation = "C:\\WebDriver\\TESTING FILES\\HRM Login - Copy.xlsx";
+		String fileLocation = "C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx";
 		
 		XSSFWorkbook wbook = null;
 		try {
@@ -20,7 +20,7 @@ public class ReadExcel {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		XSSFSheet sheet = wbook.getSheetAt(0);
+		XSSFSheet sheet = wbook.getSheet("HRM Login - Copy");
 		int lastRowNum = sheet.getLastRowNum();
 		int physicalNumberOfRows = sheet.getPhysicalNumberOfRows();
 		System.out.println("Inclusive of header: "+physicalNumberOfRows);

@@ -14,10 +14,10 @@ public class _03_Read_From_Excel_0 {
 
 	public static void main(String[] args) throws IOException  {
 		
-		FileInputStream FIS_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\BATCH LIST PROJECT.xlsx");
+		FileInputStream FIS_Obj = new FileInputStream ("C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx");
 			XSSFWorkbook XW_Obj = new XSSFWorkbook(FIS_Obj);
 			
-			XSSFSheet xs_objSheet = XW_Obj.getSheetAt(1);
+			XSSFSheet xs_objSheet = XW_Obj.getSheet("IV-B SEC");
 //			int lastRowNum = xs_objSheet.getLastRowNum();
 //			short lastCellNum = xs_objSheet.getRow(1).getLastCellNum();
 

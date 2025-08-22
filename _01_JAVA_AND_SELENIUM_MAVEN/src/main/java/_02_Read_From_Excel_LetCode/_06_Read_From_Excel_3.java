@@ -13,9 +13,9 @@ public class _06_Read_From_Excel_3 {
 
 	public static void main(String[] args) throws IOException {
 
-		FileInputStream  fileName= new FileInputStream ("C:\\WebDriver\\TESTING FILES\\II A.xlsx");
+		FileInputStream  fileName= new FileInputStream ("C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx");
 		XSSFWorkbook workBook_Obj = new XSSFWorkbook(fileName);
-		XSSFSheet sheetAt = workBook_Obj.getSheetAt(0);
+		XSSFSheet sheetAt = workBook_Obj.getSheet("II A");
 		int lastRowNum = sheetAt.getLastRowNum();
 		//int physicalNumberOfRows = sheetAt.getPhysicalNumberOfRows();
 		short lastCellNum = sheetAt.getRow(0).getLastCellNum();

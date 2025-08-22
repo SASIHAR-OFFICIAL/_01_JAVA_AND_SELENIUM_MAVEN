@@ -12,9 +12,9 @@ public class _02_Read_From_Excel {
 
 	public static void main(String[] args) throws IOException {
 
-		FileInputStream fil_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login - Copy.xlsx");
+		FileInputStream fil_Obj = new FileInputStream ("C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx");
 		XSSFWorkbook W_Obj = new XSSFWorkbook(fil_Obj);
-		XSSFSheet S_Obj = W_Obj.getSheetAt(0);
+		XSSFSheet S_Obj = W_Obj.getSheet("HRM Login - Copy");
 		for (int i = 1; i <5; i++) {
 			XSSFRow row = S_Obj.getRow(i);
 			for (int j = 0; j < 2; j++) {
