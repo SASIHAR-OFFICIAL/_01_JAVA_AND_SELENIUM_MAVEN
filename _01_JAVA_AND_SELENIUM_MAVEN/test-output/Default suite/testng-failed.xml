@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CrossBowserTest._03_BrmtremplintechLogin">
+      <class name="_03_Parameter_DependOnMethod.DependOnMethod">
         <methods>
-          <include name="tremplintech_Login"/>
+          <include name="Dog"/>
+          <include name="Banana"/>
+          <include name="Apple"/>
+          <include name="Elephant"/>
+          <include name="Cat"/>
         </methods>
-      </class> <!-- CrossBowserTest._03_BrmtremplintechLogin -->
+      </class> <!-- _03_Parameter_DependOnMethod.DependOnMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
