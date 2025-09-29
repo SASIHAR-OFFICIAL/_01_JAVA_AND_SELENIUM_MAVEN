@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_03_Parameter_DependOnMethod.DependOnMethod">
+      <class name="_04_Parameter_Invocation_Time_Count.Invocation_Count">
         <methods>
-          <include name="Dog"/>
-          <include name="Banana"/>
-          <include name="Apple"/>
-          <include name="Elephant"/>
-          <include name="Cat"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- _03_Parameter_DependOnMethod.DependOnMethod -->
+      </class> <!-- _04_Parameter_Invocation_Time_Count.Invocation_Count -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
