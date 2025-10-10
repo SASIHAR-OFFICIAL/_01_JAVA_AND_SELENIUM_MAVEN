@@ -1,4 +1,4 @@
-package _04_Parameter_Invocation_Time_Count;
+package _04_Parameter_Invocation_Count_TimeOut;
 import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -9,15 +9,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Invocation_Count {
+public class _02_Invocation_Count_with_TimeOut {
 	
-		@Test(invocationCount = 3)
-		public void InvocationCounts() {
+		@Test(invocationCount = 3, invocationTimeOut = 20000)
+		public void InvocationCounts() throws InterruptedException {
 			ChromeDriver driver =  new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			driver.navigate().to("https://www.bing.com/");
 			
-			driver.findElement(By.xpath("//*[@id=\"sb_form_q\"]")).sendKeys("cricket", Keys.ENTER);
+			WebElement Search = driver.findElement(By.xpath("//*[@id=\"sb_form_q\"]"));
+			Thread.sleep(2000);
+			Search.sendKeys("cricket", Keys.ENTER);
+			
 		
 			List<WebElement> crickets = driver.findElements(By.xpath("//*[contains(text(),'cricket') or contains(text(),'Cricket')]"));
 			System.out.println(crickets.size());

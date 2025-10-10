@@ -1,10 +1,10 @@
-package _02_Parameter_Priority;
+package _02_Parameter;
 
 import java.security.PublicKey;
 
 import org.testng.annotations.Test;
 
-public class Priority3 {
+public class _03_Priority {
 	
 	@Test(priority = 2)
 	public void Cat() {

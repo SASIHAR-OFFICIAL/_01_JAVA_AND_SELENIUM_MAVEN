@@ -1,10 +1,10 @@
-package _02_Parameter_Priority;
+package _02_Parameter;
 
 import java.security.PublicKey;
 
 import org.testng.annotations.Test;
 
-public class Priority {
+public class _01_Priority {
 	@Test
 	public void SingOut() {
 		System.out.println("SingOut");

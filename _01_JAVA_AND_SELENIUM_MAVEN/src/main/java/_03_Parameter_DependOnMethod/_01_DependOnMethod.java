@@ -2,7 +2,7 @@ package _03_Parameter_DependOnMethod;
 
 import org.testng.annotations.Test;
 
-public class DependOnMethod {
+public class _01_DependOnMethod {
 	@Test
 	public void Apple() {
 		System.out.println("Apple");

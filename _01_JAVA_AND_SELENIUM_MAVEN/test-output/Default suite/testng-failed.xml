@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_04_Parameter_Invocation_Time_Count.Invocation_Count">
+      <class name="_04_Parameter_Invocation_Count_TimeOut._02_Invocation_Count_with_TimeOut">
         <methods>
-          <include name="main"/>
+          <include name="InvocationCounts"/>
         </methods>
-      </class> <!-- _04_Parameter_Invocation_Time_Count.Invocation_Count -->
+      </class> <!-- _04_Parameter_Invocation_Count_TimeOut._02_Invocation_Count_with_TimeOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
