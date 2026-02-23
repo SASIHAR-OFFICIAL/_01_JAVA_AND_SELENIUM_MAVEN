@@ -9,6 +9,7 @@ public class FIREFOX {
 	public void Firefox_Maven() {
 		WebDriver driver = new FirefoxDriver();
 		driver.navigate().to("https://www.google.com/");
+		driver.navigate().to("https://web.whatsapp.com/");
 		driver.quit();
 	}
 
